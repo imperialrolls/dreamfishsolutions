@@ -4,7 +4,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	/* background-color: #ffffff; */
+	background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -23,15 +23,15 @@ h3 {
 }
 
 .animated {
-  -webkit-animation-duration: 4.0s;
-  animation-duration: 4.0s;
+  -webkit-animation-duration: 3.0s;
+  animation-duration: 3.0s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
-.fadeInDownBig {
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+.fadeInRightBig {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
