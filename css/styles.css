@@ -8,6 +8,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h3 {
+  font-weight: 300;
+  font-stretch: ultra-expanded;
+}
+
 .center {
   position: absolute;
   left: 50%;
