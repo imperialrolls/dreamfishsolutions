@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/imperialrolls/dreamfishsolutions/issues"
   },
-  "homepage": "https://github.com/imperialrolls/dreamfishsolutions#readme"
+  "homepage": "https://github.com/imperialrolls/dreamfishsolutions#readme",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "materialize-css": "^0.100.2"
+  }
 }
