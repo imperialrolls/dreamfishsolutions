@@ -19,18 +19,20 @@
 
 <body>
 
-  <ul id="slide-out" class="side-nav orange lighten-3">
+  <ul id="slide-out" class="side-nav">
+    <li><a class="subheader"></a></li>
+    <li><a href="index.html"><i class="material-icons">home</i>home</a></li>
     <li><a class="subheader">SOLUTIONS</a></li>
     <li><a href="#!"><i class="material-icons">desktop_mac</i>web design</a></li>
     <li><a href="#!"><i class="material-icons">phone_iphone</i>application development</a></li>
     <li>
       <div class="divider"></div>
     </li>
-    <li><a class="subheader">PORTFOLIO</a></li>
-    <li><a href="#!"><img src="img/logo-tb-home-200.png"></a></li>
-    <li>
+    <!-- <li><a class="subheader">PORTFOLIO</a></li>
+    <li><a href="#!"><img src="img/logo-tb-home-200.png"></a></li> -->
+    <!-- <li>
       <div class="divider"></div>
-    </li>
+    </li> -->
     <li><a class="subheader">DREAM FISH</a></li>
     <li><a href="#!"><i class="material-icons">group</i>the team</a></li>
     <li>
@@ -49,26 +51,23 @@
       <h1 class="center animated infinite flash">Contact</h1>
       <form action="javascript:void(0);">
         <div class="input-field">
-          <input placeholder="Name" type="text" name="name" class="validate">
-          <label>Your Name</label>
+          <input placeholder="your name here" type="text" name="name" class="validate">
+          <label>Who Are You?</label>
         </div>
         <div class="input-field">
-          <input placeholder="Name" type="email" name="email" class="validate">
+          <input placeholder="email" type="email" name="email" class="validate">
           <label>Your Email</label>
         </div>
         <div class="input-field">
           <textarea name="message" class="materialize-textarea"></textarea>
           <label>Your Message</label>
         </div>
-        <div class="row">
 
           <div class="g-recaptcha" data-callback="onHuman" data-sitekey="6LedD0gUAAAAADj4uk1i50fN2bfptusvsKtItESs"></div>
           <input type="hidden" id="captcha" name="captcha" value="">
-          <button id="contact-submit" class="btn waves-effect waves-light orange lighten-3" name="action">Send
+          <button id="contact-submit" class="btn waves-effect waves-light amber lighten-3" name="action">Send
                         <i class="material-icons right">send</i>
                     </button>
-
-        </div>
       </form>
     </div>
   </section>

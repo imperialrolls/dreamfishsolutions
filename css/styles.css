@@ -31,8 +31,8 @@ h3 {
 }
 
 .infinite {
-  -webkit-animation-duration: 10.0s;
-  animation-duration: 10.0s;
+  -webkit-animation-duration: 30.0s;
+  animation-duration: 30.0s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
