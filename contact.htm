@@ -1,85 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <!-- animate.css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <!-- CSS link -->
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <title>Dream Fish Solutions</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- CSS link -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Dream Fish Solutions</title>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <ul id="slide-out" class="side-nav">
-            <li><a class="subheader">SOLUTIONS</a></li>
-            <li><a href="#!"><i class="material-icons">desktop_mac</i>web design</a></li>
-            <li><a href="#!"><i class="material-icons">phone_iphone</i>application development</a></li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li><a class="subheader">PORTFOLIO</a></li>
-            <li><a href="#!"><img src="img/logo-tb-home-200.png"></a></li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li><a class="subheader">DREAM FISH</a></li>
-            <li><a href="#!"><i class="material-icons">group</i>the team</a></li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li><a class="subheader">LET’S GET STARTED</a></li>
-            <div class="input-field inline">
-                <input id="email" type="email" class="validate">
-                <label for="email" data-error="wrong" data-success="right">Email</label>
-            </div>
-        </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse btn-large amber lighten-3"><i class="material-icons">menu</i></a>
+  <ul id="slide-out" class="side-nav orange lighten-3">
+    <li><a class="subheader">SOLUTIONS</a></li>
+    <li><a href="#!"><i class="material-icons">desktop_mac</i>web design</a></li>
+    <li><a href="#!"><i class="material-icons">phone_iphone</i>application development</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">PORTFOLIO</a></li>
+    <li><a href="#!"><img src="img/logo-tb-home-200.png"></a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">DREAM FISH</a></li>
+    <li><a href="#!"><i class="material-icons">group</i>the team</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">LET’S GET STARTED</a></li>
+    <div class="input-field inline">
+      <input id="email" type="email" class="validate">
+      <label for="email" data-error="wrong" data-success="right">Email</label>
+    </div>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse btn-large amber lighten-3"><i class="material-icons">menu</i></a>
 
-        <section>
-            <div class="container">
-                <h2>Contact</h2>
-                <form action="javascript:void(0);">
-                    <div class="input-field">
-                        <input placeholder="Name" type="text" name="name" class="validate">
-                        <label>Your Name</label>
-                    </div>
-                    <div class="input-field">
-                        <input placeholder="Name" type="email" name="email" class="validate">
-                        <label>Your Email</label>
-                    </div>
-                    <div class="input-field">
-                        <textarea name="message" class="materialize-textarea"></textarea>
-                        <label>Your Message</label>
-                    </div>
-                    <div class="g-recaptcha" data-callback="onHuman" data-sitekey="6LedD0gUAAAAADj4uk1i50fN2bfptusvsKtItESs"></div>
-                    <input type="hidden" id="captcha" name="captcha" value="">
-                    <button id="contact-submit" class="btn waves-effect waves-light" name="action">Send
+  <section>
+    <div class="container">
+      <h1 class="center animated infinite flash">Contact</h1>
+      <form action="javascript:void(0);">
+        <div class="input-field">
+          <input placeholder="Name" type="text" name="name" class="validate">
+          <label>Your Name</label>
+        </div>
+        <div class="input-field">
+          <input placeholder="Name" type="email" name="email" class="validate">
+          <label>Your Email</label>
+        </div>
+        <div class="input-field">
+          <textarea name="message" class="materialize-textarea"></textarea>
+          <label>Your Message</label>
+        </div>
+        <div class="row">
+
+          <div class="g-recaptcha" data-callback="onHuman" data-sitekey="6LedD0gUAAAAADj4uk1i50fN2bfptusvsKtItESs"></div>
+          <input type="hidden" id="captcha" name="captcha" value="">
+          <button id="contact-submit" class="btn waves-effect waves-light orange lighten-3" name="action">Send
                         <i class="material-icons right">send</i>
                     </button>
-                </form>
-            </div>
-        </section>
 
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <script type"text/javascript">
-         function onHuman(response) { 
-             document.getElementById('captcha').value = response;
-         }
-        </script>
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-        <script type="text/javascript" src="js/dream.js"></script>
-    </body>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type "text/javascript">
+    function onHuman(response) {
+      document.getElementById('captcha').value = response;
+    }
+  </script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script type="text/javascript" src="js/dream.js"></script>
+</body>
 
 </html>

@@ -30,6 +30,13 @@ h3 {
   animation-fill-mode: both;
 }
 
+.infinite {
+  -webkit-animation-duration: 10.0s;
+  animation-duration: 10.0s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
 .fadeInRightBig {
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
