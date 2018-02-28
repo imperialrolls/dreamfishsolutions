@@ -39,7 +39,7 @@ function onContactFormSubmit()
     }
 
     // Your email address
-    $email_to = 'laurent@dreamfishsolutions.com';
+    $email_to = 'christopher@dreamfishsolutions.com';
 
     // Your custom email subject
     $email_subject = 'A new message from my website';
