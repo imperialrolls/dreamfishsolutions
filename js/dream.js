@@ -22,6 +22,10 @@ $(document).ready(function(){
             success: function(result) {
                 let res = JSON.parse(result);
                 Materialize.toast(res['result'][0], 4000);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+              console.log(xhr.status);
+              console.log(thrownError);
             }
         });
     });

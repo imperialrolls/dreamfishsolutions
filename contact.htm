@@ -46,9 +46,14 @@
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse btn-large amber lighten-3"><i class="material-icons">menu</i></a>
 
+<section>
+<div class="container">
+      <h1 class="">Message Us</h1>
+</div>
+</section>
+
   <section>
     <div class="container">
-      <h1 class="center animated infinite flash">Contact</h1>
       <form action="javascript:void(0);">
         <div class="input-field">
           <input placeholder="your name here" type="text" name="name" class="validate">
@@ -78,6 +83,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script type "text/javascript">
     function onHuman(response) {
+console.log('got recaptcha');
       document.getElementById('captcha').value = response;
     }
   </script>
